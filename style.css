@@ -147,10 +147,10 @@ header {
 	transition: opacity 0.3s;
 }
 .nav__link--button {
-    padding: 0.25em 0.75em;
-    background: #fff;
-    color: #38cfd9;
-    border-radius: 100px;
+	padding: 0.25em 0.75em;
+	background: #fff;
+	color: #38cfd9;
+	border-radius: 100px;
 }
 
 .nav__link:hover,
@@ -197,8 +197,23 @@ header {
 	.nav {
 		visibility: visible;
 		display: flex;
+        align-items: center;
+        justify-content: flex-end;
 		height: auto;
+        position: relative;
 	}
+	.nav__list {
+        margin: 0;
+		display: flex;
+	}
+    /* .nav__list--primary {
+        margin: 0 auto;
+    } */
+    /* wyśrodkowało część primary */
+
+    .nav__item {
+        margin: 0 0 0 1.5em;
+    }
 
 	.row {
 		display: flex;
